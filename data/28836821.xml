@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tns:ERKNM_INSPECTION ERPID="03250041000118764733" START_DATE="2025-08-12" STOP_DATE="2025-08-12"
+    xmlns:tns="https://proverki.gov.ru/opendata/3.0/20210715">
+    <tns:KIND_CONTROL ID="4"
+        TITLE="Федеральный государственный санитарно-эпидемиологический контроль (надзор)"
+        NUMBER="004" CODE="004" />
+    <tns:KIND_KNM CODE="PP" TITLE="Профилактический визит" />
+    <tns:OBJECTS GUID="402372d2-faf5-4183-bcfb-ec43bd5de756">
+        <tns:OBJECT_TYPE ID="1" CODE="1" TITLE="Деятельность и действия" />
+        <tns:OBJECT_KIND
+            TITLE="Деятельность ресторанов, кафе, баров, закусочных, столовых, в том числе столовых при предприятиях и учреждениях, поставка продукции общественного питания" />
+        <tns:OBJECT_SUB_KIND
+            TITLE="Деятельность ресторанов, кафе, баров, закусочных, столовых, в том числе столовых при предприятиях и учреждениях, поставка продукции общественного питания" />
+        <tns:RISK_CATEGORY ID="2" LIMIT="0" CODE="2" TITLE="высокий риск" NAME="высокий риск" />
+    </tns:OBJECTS>
+    <tns:INSPECTORS INSPECTOR_FULL_NAME="Цыдынжапова Ксения Викторовна"
+        GUID="960edcf2-c2bd-48d9-8fac-df664921e1bb">
+        <tns:INSPECTOR_POSITION
+            TITLE="Ведущий специалист-эксперт отдела территориального органа Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека" />
+    </tns:INSPECTORS>
+    <tns:KNO_ORGANIZATION ID="10001012187" OGRN="1050302662288" PHONE="+7(301)-241-25-74"
+        ADDRESS="г Улан-Удэ, ул Ключевская, д 45Б"
+        FULL_NAME="Управление Роспотребнадзора по Республике Бурятия"
+        SHORT_NAME="Управление Роспотребнадзора по Республике Бурятия" CODE="10001012187">
+        <tns:ADMIN_LEVEL ID="50001" TITLE="FEDERAL" DESCRIPTION="Федеральный" />
+    </tns:KNO_ORGANIZATION>
+    <tns:REASON_RISK>
+        <tns:REASON TEXT="План профилактических визитов на 2025 год" MAIN="false"
+            APPROVE_REQUIRED="false">
+            <tns:REASON_TYPE HAS_TEXT="true" APPROVE_REQUIRED="false" DATE_REQUIRED="false" />
+        </tns:REASON>
+    </tns:REASON_RISK>
+</tns:ERKNM_INSPECTION>
