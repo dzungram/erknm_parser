@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 
 from zipfile import ZipFile
 from pathlib import Path
+from parser import PvParser
 
 
 
@@ -57,4 +58,5 @@ def extract_zip(zip_file: str, extract_to: str = 'data') -> list[str]:
 
 
 if __name__ == '__main__':
-    pass
+    pv = PvParser()
+    pv.parse(xml_file_path='data/28836821.xml')
