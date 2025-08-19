@@ -1,7 +1,7 @@
 import logging
 import xml.etree.cElementTree as ET
 from abc import ABC, abstractmethod
-from xml.etree.ElementTree import ParseError, ElementTree
+from xml.etree.ElementTree import ParseError, ElementTree, Element
 
 logging.basicConfig(level=logging.DEBUG, datefmt='%Y-%m-%d %H:%M:%S', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger()
@@ -14,7 +14,7 @@ class BaseErknmParser(ABC):
 
     def _set_root(self, xml_file_path: str):
         try:
-            tree: ElementTree = ET.parse(source=xml_file_path)
+            tree: ElementTree[Element[str]] = ET.parse(source=xml_file_path)
             self.root = tree.getroot()
             logger.info('Successfully set root element')
             self._extract_ns()
