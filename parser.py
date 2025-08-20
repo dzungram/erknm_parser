@@ -41,7 +41,6 @@ class KnmParser(BaseErknmParser):
         self._set_root(xml_file_path)
 
 
-
 class PvParser(BaseErknmParser):
     def __init__(self):
         super().__init__()
