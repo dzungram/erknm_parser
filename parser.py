@@ -1,12 +1,13 @@
 import logging
 import xml.etree.cElementTree as ET
 from abc import ABC, abstractmethod
-from typing import Dict
+from typing import Dict, List
 from xml.etree.ElementTree import ParseError, ElementTree, Element
 
 logging.basicConfig(level=logging.DEBUG, datefmt='%Y-%m-%d %H:%M:%S', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger()
 
+KNM_TYPES = ['выездная проверка', 'профилактический визит']
 
 class BaseErknmParser(ABC):
     def __init__(self):
@@ -67,7 +68,7 @@ class KnmParser(BaseErknmParser):
     def _parse_date(self) -> Dict[str, str]:
         """Парсит и возвращает словарь с датами КНМ
 
-        :return dict: `Словарь с датами`
+        :return Dict[str, str]: `Словарь с датами`
         """
         knm_date = {}
         if self.root:
@@ -89,7 +90,7 @@ class KnmParser(BaseErknmParser):
     def _parse_kind_knm(self) -> Dict[str, str]:
         element = None
         if self.root:
-            element = self.root.find('tnbs:KIND_KNM', self.ns)
+            element = self.root.find('tns:KIND_KNM', self.ns)
         if element:
             return element.attrib
         return {}
@@ -119,6 +120,60 @@ class KnmParser(BaseErknmParser):
                     'object_sub_kind': self._find_attrib(objects_node, 'tns:OBJECT_SUB_KIND'),
                     'risk_category': self._find_attrib(objects_node, 'tns:RISK_CATEGORY')
                 }
+        return {}
+    
+    def _parse_inspectors(self) -> List[Dict[str, str]]:
+        """Парсит и возвращает список инспекторов, участвующих в проверке
+
+        :return List: Список инспекторов
+        """
+        inspectors = []
+        if self.root:
+            for element in self.root.findall('tns:INSPECTORS', self.ns):
+                position = element.find('tns:INSPECTOR_POSITION', self.ns)
+                inspectors.append(
+                    {
+                        'full_name': element.get('INSPECTORS_FULL_NAME'),
+                        'guid': element.get('GUID'),
+                        'position': position.get('TITLE') if position else '',
+                    }
+                )
+        return inspectors
+    
+    def _parse_places(self) -> str | None:
+        """Парсит и возвращает адрес местонахождения объекта проверки
+        
+        :return str: Адрес местонахождения
+        """
+        if self.root:
+            element = self.root.find('tns:PLACES', self.ns)
+            return element.text if element else ''
+        return ''
+
+    def _parse_decision(self) -> Dict[str | None, str | None]:
+        """Парсит и возвращает решение по КНМ
+
+        :return dict: Словарь с решением по КНМ
+        """
+        if self.root:
+            element = self.root.find('tns:DECISION', self.ns)
+            if element:
+                title = element.find('tns:TITLE_SIGNER', self.ns)
+                return {
+                    'signer': element.get('FIO_SIGNER'),
+                    'title': title.get('TITLE') if title else '',
+                }
+        return {}
+    
+    def _parse_reason_risk(self):
+
+        element = self.root.find('tns:REASON_RISK', self.ns) if self.root else None
+        reason = element.find('tns:REASON', self.ns) if element else None
+        reason_type = reason.find('tns:REASON_TYPE', self.ns) if reason else None
+
+        kind_knm = self._parse_kind_knm()
+        
+        
         return {}
 
 
