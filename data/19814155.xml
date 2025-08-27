@@ -1,1 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><tns:ERKNM_INSPECTION ERPID="03240041000109742067" TYPE_NAME="Внеплановое КНМ" START_DATE="2024-03-12" STOP_DATE="2024-03-25" RETURN_SELECTION="false" DURATION_DAYS="10" xmlns:tns="https://proverki.gov.ru/opendata/3.0/20210715"><tns:KIND_CONTROL ID="4" TITLE="Федеральный государственный санитарно-эпидемиологический контроль (надзор)" NUMBER="004" CODE="004"/><tns:KIND_KNM CODE="VP" TITLE="Выездная проверка"/><tns:PROSECUTOR_ORGANIZATION ID="2511" NAME="Прокуратура Республики Бурятия"/><tns:ORGANIZATIONS INN="0326572170" OGRN="1190327013249" ORGANIZATION_NAME="ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;НОВЫЙ МИР&quot;" SUBJECT_MSP="Микропредприятие" GUID="02315af8-c8de-478e-a82c-03ec3826c930"><tns:OKVEDS CODE="56.29.2" NAME="Деятельность столовых и буфетов при предприятиях и учреждениях"/></tns:ORGANIZATIONS><tns:OBJECTS ADDRESS="670033, Республика Бурятия, г. Улан-Удэ, ул. Краснофлотская, д 46" GUID="a9d6b0c1-081e-4b22-9102-76c2457ae76b"><tns:OBJECT_TYPE ID="1" CODE="1" TITLE="Деятельность и действия"/><tns:OBJECT_KIND TITLE="Деятельность по организации общественного питания детей в организациях, осуществляющих образовательную деятельность, оказание услуг по воспитанию и обучению, уходу и присмотру за детьми, отдыху и оздоровлению, предоставлению мест временного проживания, социальных, медицинских услуг"/><tns:OBJECT_SUB_KIND TITLE="Деятельность по организации общественного питания детей в организациях, осуществляющих образовательную деятельность, оказание услуг по воспитанию и обучению, уходу и присмотру за детьми, отдыху и оздоровлению, предоставлению мест временного проживания, социальных, медицинских услуг"/><tns:RISK_CATEGORY ID="1" LIMIT="0" CODE="1" TITLE="чрезвычайно высокий риск" NAME="чрезвычайно высокий риск"/></tns:OBJECTS><tns:INSPECTORS INSPECTOR_FULL_NAME="Цыдынжапова К.В." GUID="55f831fb-ae04-4562-baaf-8269625a5672"><tns:INSPECTOR_POSITION TITLE="Ведущий специалист-эксперт отдела территориального органа Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека"/></tns:INSPECTORS><tns:INSPECTORS INSPECTOR_FULL_NAME="Амбаева Ю.А." GUID="bb8e428c-ee9f-4000-ac2d-2035c2dff244"><tns:INSPECTOR_POSITION TITLE="Главный специалист-эксперт отдела территориального органа Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека"/></tns:INSPECTORS><tns:EXPERTS EXPERT_TITLE="ФБУЗ «Центр гигиены и эпидемиологии в Республике Бурятия»" GUID="8f9762dc-4962-4d29-8f6c-8e1942a882d2"><tns:EXPERT_TYPE CODE="EXP_ORG" NAME="Экспертная организация"/></tns:EXPERTS><tns:EXPERTS EXPERT_TITLE="Цындыжапова Г.И." GUID="30d16756-ea11-4d1f-8cdd-676ed6e5c5b2"><tns:EXPERT_TYPE CODE="EXP" NAME="Эксперт"/></tns:EXPERTS><tns:EXPERTS EXPERT_TITLE="Родионова В.Н." GUID="af5b4ed8-3e44-44e3-958b-cb5dfa89f4e8"><tns:EXPERT_TYPE CODE="SPEC" NAME="Cпециалист"/></tns:EXPERTS><tns:EXPERTS EXPERT_TITLE="Цыдыпова Л.В." GUID="045fa50c-097b-4623-a8d6-782cf32da066"><tns:EXPERT_TYPE CODE="SPEC" NAME="Cпециалист"/></tns:EXPERTS><tns:EVENTS GUID="d76d16c8-e780-4a35-9ba1-97bb276390f0" START_DATE="2024-03-12" STOP_DATE="2024-03-25"><tns:EVENT CODE="null" TITLE="Осмотр"/></tns:EVENTS><tns:EVENTS GUID="b0429eaf-d498-4b8c-ae5d-697a80a6d34e" START_DATE="2024-03-12" STOP_DATE="2024-03-25"><tns:EVENT CODE="null" TITLE="Опрос"/></tns:EVENTS><tns:EVENTS GUID="77cf5c22-6a61-493f-a950-56da0e3f571c" START_DATE="2024-03-12" STOP_DATE="2024-03-25"><tns:EVENT CODE="null" TITLE="Получение письменных объяснений"/></tns:EVENTS><tns:EVENTS GUID="f1922711-1f23-4a7d-8495-10669d5c7f4e" START_DATE="2024-03-12" STOP_DATE="2024-03-25"><tns:EVENT CODE="null" TITLE="Истребование документов"/></tns:EVENTS><tns:EVENTS GUID="7ff8f6b2-3363-4439-983f-0cd09cad2a69" START_DATE="2024-03-12" STOP_DATE="2024-03-25"><tns:EVENT CODE="null" TITLE="Отбор проб (образцов)"/></tns:EVENTS><tns:EVENTS GUID="36ed6482-3585-4ecf-9f89-5c95a3ea2527" START_DATE="2024-03-12" STOP_DATE="2024-03-25"><tns:EVENT CODE="null" TITLE="Испытание"/></tns:EVENTS><tns:EVENTS GUID="ab180222-aa5f-4caa-aa82-4caef8331b65" START_DATE="2024-03-12" STOP_DATE="2024-03-25"><tns:EVENT CODE="null" TITLE="Экспертиза"/></tns:EVENTS><tns:PLACES>670033, Республика Бурятия, г. Улан-Удэ, ул. Краснофлотская, д 46</tns:PLACES><tns:KNO_ORGANIZATION ID="10001012187" OGRN="1050302662288" PHONE="+7(301)-241-25-74" ADDRESS="г Улан-Удэ, ул Ключевская, д 45Б" FULL_NAME="Управление Роспотребнадзора по Республике Бурятия" SHORT_NAME="Управление Роспотребнадзора по Республике Бурятия" CODE="10001012187"><tns:ADMIN_LEVEL ID="50001" TITLE="FEDERAL" DESCRIPTION="Федеральный"/></tns:KNO_ORGANIZATION><tns:DECISION DATE_TIME_DECISION="2024-03-01T15:00:00.000000Z" NUMBER_DECISION="24" PLACE_DECISION="670013, Республика Бурятия, г. Улан-Удэ, ул. Ключевская, д 45Б" FIO_SIGNER="Бальжанова В.Е."><tns:TITLE_SIGNER TITLE="Заместитель руководителя территориального органа Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека  заместитель Главного государственного санитарного врача по субъекту Российской Федерации"/></tns:DECISION><tns:APPROVE IS_APPEAL="false"><tns:APPROVE_REQUIRED>NON_REQUIRED</tns:APPROVE_REQUIRED></tns:APPROVE><tns:REASON_RISK><tns:REASON MAIN="false" APPROVE_REQUIRED="false"><tns:REASON_TYPE NAME="Поручение Президента РФ, поручение Правительства РФ" HAS_TEXT="false" APPROVE_REQUIRED="true" DATE_REQUIRED="true"/></tns:REASON></tns:REASON_RISK></tns:ERKNM_INSPECTION>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tns:ERKNM_INSPECTION ERPID="03240041000109742067" TYPE_NAME="Внеплановое КНМ" START_DATE="2024-03-12"
+                      STOP_DATE="2024-03-25" RETURN_SELECTION="false" DURATION_DAYS="10"
+                      xmlns:tns="https://proverki.gov.ru/opendata/3.0/20210715">
+    <tns:KIND_CONTROL ID="4" TITLE="Федеральный государственный санитарно-эпидемиологический контроль (надзор)"
+                      NUMBER="004" CODE="004"/>
+    <tns:KIND_KNM CODE="VP" TITLE="Выездная проверка"/>
+    <tns:PROSECUTOR_ORGANIZATION ID="2511" NAME="Прокуратура Республики Бурятия"/>
+    <tns:ORGANIZATIONS INN="0326572170" OGRN="1190327013249"
+                       ORGANIZATION_NAME="ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;НОВЫЙ МИР&quot;"
+                       SUBJECT_MSP="Микропредприятие" GUID="02315af8-c8de-478e-a82c-03ec3826c930">
+        <tns:OKVEDS CODE="56.29.2" NAME="Деятельность столовых и буфетов при предприятиях и учреждениях"/>
+    </tns:ORGANIZATIONS>
+    <tns:OBJECTS ADDRESS="670033, Республика Бурятия, г. Улан-Удэ, ул. Краснофлотская, д 46"
+                 GUID="a9d6b0c1-081e-4b22-9102-76c2457ae76b">
+        <tns:OBJECT_TYPE ID="1" CODE="1" TITLE="Деятельность и действия"/>
+        <tns:OBJECT_KIND
+                TITLE="Деятельность по организации общественного питания детей в организациях, осуществляющих образовательную деятельность, оказание услуг по воспитанию и обучению, уходу и присмотру за детьми, отдыху и оздоровлению, предоставлению мест временного проживания, социальных, медицинских услуг"/>
+        <tns:OBJECT_SUB_KIND
+                TITLE="Деятельность по организации общественного питания детей в организациях, осуществляющих образовательную деятельность, оказание услуг по воспитанию и обучению, уходу и присмотру за детьми, отдыху и оздоровлению, предоставлению мест временного проживания, социальных, медицинских услуг"/>
+        <tns:RISK_CATEGORY ID="1" LIMIT="0" CODE="1" TITLE="чрезвычайно высокий риск" NAME="чрезвычайно высокий риск"/>
+    </tns:OBJECTS>
+    <tns:INSPECTORS INSPECTOR_FULL_NAME="Цыдынжапова К.В." GUID="55f831fb-ae04-4562-baaf-8269625a5672">
+        <tns:INSPECTOR_POSITION
+                TITLE="Ведущий специалист-эксперт отдела территориального органа Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека"/>
+    </tns:INSPECTORS>
+    <tns:INSPECTORS INSPECTOR_FULL_NAME="Амбаева Ю.А." GUID="bb8e428c-ee9f-4000-ac2d-2035c2dff244">
+        <tns:INSPECTOR_POSITION
+                TITLE="Главный специалист-эксперт отдела территориального органа Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека"/>
+    </tns:INSPECTORS>
+    <tns:EXPERTS EXPERT_TITLE="ФБУЗ «Центр гигиены и эпидемиологии в Республике Бурятия»"
+                 GUID="8f9762dc-4962-4d29-8f6c-8e1942a882d2">
+        <tns:EXPERT_TYPE CODE="EXP_ORG" NAME="Экспертная организация"/>
+    </tns:EXPERTS>
+    <tns:EXPERTS EXPERT_TITLE="Цындыжапова Г.И." GUID="30d16756-ea11-4d1f-8cdd-676ed6e5c5b2">
+        <tns:EXPERT_TYPE CODE="EXP" NAME="Эксперт"/>
+    </tns:EXPERTS>
+    <tns:EXPERTS EXPERT_TITLE="Родионова В.Н." GUID="af5b4ed8-3e44-44e3-958b-cb5dfa89f4e8">
+        <tns:EXPERT_TYPE CODE="SPEC" NAME="Cпециалист"/>
+    </tns:EXPERTS>
+    <tns:EXPERTS EXPERT_TITLE="Цыдыпова Л.В." GUID="045fa50c-097b-4623-a8d6-782cf32da066">
+        <tns:EXPERT_TYPE CODE="SPEC" NAME="Cпециалист"/>
+    </tns:EXPERTS>
+    <tns:EVENTS GUID="d76d16c8-e780-4a35-9ba1-97bb276390f0" START_DATE="2024-03-12" STOP_DATE="2024-03-25">
+        <tns:EVENT CODE="null" TITLE="Осмотр"/>
+    </tns:EVENTS>
+    <tns:EVENTS GUID="b0429eaf-d498-4b8c-ae5d-697a80a6d34e" START_DATE="2024-03-12" STOP_DATE="2024-03-25">
+        <tns:EVENT CODE="null" TITLE="Опрос"/>
+    </tns:EVENTS>
+    <tns:EVENTS GUID="77cf5c22-6a61-493f-a950-56da0e3f571c" START_DATE="2024-03-12" STOP_DATE="2024-03-25">
+        <tns:EVENT CODE="null" TITLE="Получение письменных объяснений"/>
+    </tns:EVENTS>
+    <tns:EVENTS GUID="f1922711-1f23-4a7d-8495-10669d5c7f4e" START_DATE="2024-03-12" STOP_DATE="2024-03-25">
+        <tns:EVENT CODE="null" TITLE="Истребование документов"/>
+    </tns:EVENTS>
+    <tns:EVENTS GUID="7ff8f6b2-3363-4439-983f-0cd09cad2a69" START_DATE="2024-03-12" STOP_DATE="2024-03-25">
+        <tns:EVENT CODE="null" TITLE="Отбор проб (образцов)"/>
+    </tns:EVENTS>
+    <tns:EVENTS GUID="36ed6482-3585-4ecf-9f89-5c95a3ea2527" START_DATE="2024-03-12" STOP_DATE="2024-03-25">
+        <tns:EVENT CODE="null" TITLE="Испытание"/>
+    </tns:EVENTS>
+    <tns:EVENTS GUID="ab180222-aa5f-4caa-aa82-4caef8331b65" START_DATE="2024-03-12" STOP_DATE="2024-03-25">
+        <tns:EVENT CODE="null" TITLE="Экспертиза"/>
+    </tns:EVENTS>
+    <tns:PLACES>670033, Республика Бурятия, г. Улан-Удэ, ул. Краснофлотская, д 46</tns:PLACES>
+    <tns:KNO_ORGANIZATION ID="10001012187" OGRN="1050302662288" PHONE="+7(301)-241-25-74"
+                          ADDRESS="г Улан-Удэ, ул Ключевская, д 45Б"
+                          FULL_NAME="Управление Роспотребнадзора по Республике Бурятия"
+                          SHORT_NAME="Управление Роспотребнадзора по Республике Бурятия" CODE="10001012187">
+        <tns:ADMIN_LEVEL ID="50001" TITLE="FEDERAL" DESCRIPTION="Федеральный"/>
+    </tns:KNO_ORGANIZATION>
+    <tns:DECISION DATE_TIME_DECISION="2024-03-01T15:00:00.000000Z" NUMBER_DECISION="24"
+                  PLACE_DECISION="670013, Республика Бурятия, г. Улан-Удэ, ул. Ключевская, д 45Б"
+                  FIO_SIGNER="Бальжанова В.Е.">
+        <tns:TITLE_SIGNER
+                TITLE="Заместитель руководителя территориального органа Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека  заместитель Главного государственного санитарного врача по субъекту Российской Федерации"/>
+    </tns:DECISION>
+    <tns:APPROVE IS_APPEAL="false">
+        <tns:APPROVE_REQUIRED>NON_REQUIRED</tns:APPROVE_REQUIRED>
+    </tns:APPROVE>
+    <tns:REASON_RISK>
+        <tns:REASON MAIN="false" APPROVE_REQUIRED="false">
+            <tns:REASON_TYPE NAME="Поручение Президента РФ, поручение Правительства РФ" HAS_TEXT="false"
+                             APPROVE_REQUIRED="true" DATE_REQUIRED="true"/>
+        </tns:REASON>
+    </tns:REASON_RISK>
+</tns:ERKNM_INSPECTION>
